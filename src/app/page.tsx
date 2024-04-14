@@ -14,21 +14,30 @@ export default function Home() {
 
       <main className="flex min-h-screen flex-col items-center justify-between absolute p-24">
         <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-          <a className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30"
+          <a className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30"
             href="https://www.instagram.com/sohni_karada/"
             target="_blank"
             rel="noopener noreferrer">
             Contact Us&nbsp;
           </a>
+          <div>
+            <img
+              src="event.png"
+              alt="logo"
+              className="dark:invert"
+              width={150}
+              height={40}
+            />
+          </div>
           <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
             <a
-              className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 text-white"
+              className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 text-white hover:tracking-wide"
               href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
               By{" "}
-              <h2 className="mb-3 text-2xl font-semibold">
+              <h2 className="mb-2 text-2xl font-semibold">
                 Hansa
               </h2>
               {/* <Image
@@ -43,13 +52,13 @@ export default function Home() {
           </div>
         </div>
         <div className="">
-          <h1 className="text-2xl font-bold text-white text-center leading-[2.5]">
+          <h1 className="text-2xl font-bold font-serif text-white text-center leading-[2] tracking-widest italic">
             Make your special moments with our exclusive event services for <br /> an unforgettable experience.
           </h1>
         </div>
         <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
           <a
-            href="https://www.instagram.com/sohni_karada/"
+            href="services"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             target="_blank"
             rel="noopener noreferrer"
@@ -66,7 +75,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://www.instagram.com/sohni_karada/"
+            href="clients"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             target="_blank"
             rel="noopener noreferrer"
@@ -83,7 +92,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://www.instagram.com/sohni_karada/"
+            href="events/"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             target="_blank"
             rel="noopener noreferrer"
@@ -100,7 +109,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://www.instagram.com/sohni_karada/"
+            href="/about"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             target="_blank"
             rel="noopener noreferrer"
